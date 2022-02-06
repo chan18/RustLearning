@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["four","four() is a function that returns `4`"]]});
