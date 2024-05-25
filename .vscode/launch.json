@@ -5,11 +5,22 @@
   //H:\Side Project\Rust\RustLearning\v1_hello\target\debug
   "version": "0.2.0",
   "configurations": [
+    // {
+    //   "name": "(Windows) Launch",
+    //   "type": "cppvsdbg",
+    //   "request": "launch",
+    //   "program": "${workspaceFolder}/v1_hello/target/debug/v1_hello.exe",
+    //   "args": [],
+    //   "stopAtEntry": false,
+    //   "cwd": "${fileDirname}",
+    //   "environment": [],
+    //   "console": "externalTerminal"
+    // },
     {
       "name": "(Windows) Launch",
       "type": "cppvsdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/v1_hello/target/debug/v1_hello.exe",
+      "program": "${workspaceFolder}/${fileDirname}/target/debug/$file}.exe",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${fileDirname}",
