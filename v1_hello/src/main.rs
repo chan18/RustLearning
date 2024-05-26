@@ -1,6 +1,10 @@
+mod datatypes;
+mod functions;
+mod controlflow;
 
 fn main() {
-    println!("Hello, world!");
+   // datatypes::data_types();
+   // functions::functions();
+   controlflow::control_flow();
 }
-
 
