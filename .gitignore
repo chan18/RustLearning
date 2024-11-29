@@ -15,4 +15,4 @@ Cargo.lock
 
 
 
-v1_hello/target/*
+v1_hello/target/
