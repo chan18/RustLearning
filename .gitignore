@@ -15,5 +15,4 @@ Cargo.lock
 
 
 
-v1_hello/target/debug/
-v1_hello/target/rls/debug
+v1_hello/target/*

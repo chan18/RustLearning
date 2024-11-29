@@ -1,5 +1,7 @@
 {
     "rust-analyzer.linkedProjects": [
-        "guessinggame/guessing_game/Cargo.toml",
+        "v1_hello/Cargo.toml",
+        // "guessinggame/guessing_game/Cargo.toml",
+        // "networking/tcpudp/Cargo.toml",        
     ]
 }
