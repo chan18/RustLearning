@@ -1,7 +1,8 @@
 {
     "rust-analyzer.linkedProjects": [
-        "v1_hello/Cargo.toml",
+        //"v1_hello/Cargo.toml",
         // "guessinggame/guessing_game/Cargo.toml",
         // "networking/tcpudp/Cargo.toml",        
+        //"Memory Ownership and Borrowing in Rust 2021/debugging/Cargo.toml",
     ]
 }
