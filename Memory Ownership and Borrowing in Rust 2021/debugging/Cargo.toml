@@ -3,4 +3,12 @@ name = "debugging"
 version = "0.1.0"
 edition = "2021"
 
-[dependencies]
+[lib]
+name = "lib"
+path = "src/libs/lib.rs"
+
+
+[[bin]]
+name = "app"
+path = "src/main.rs"
+

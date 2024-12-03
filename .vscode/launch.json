@@ -5,6 +5,24 @@
   //H:\Side Project\Rust\RustLearning\v1_hello\target\debug
   "version": "0.2.0",
   "configurations": [
+      {
+        "type": "lldb",
+        "request": "launch",
+        "name": "Debug executable 'app'",
+        "cargo": {
+            "args": [
+                "build",
+                "--bin=app"
+            ],
+            "filter": {
+                "name": "app",
+                "kind": "bin"
+            }
+        },
+        "args": [],
+        "cwd": "${workspaceFolder}/v1_hello/Cargo.toml",  // Make sure this points to 'debugging'
+        "preLaunchTask": "rust: cargo build",
+    },    
     // {
     //   "name": "(Windows) Launch",
     //   "type": "cppvsdbg",
@@ -16,16 +34,16 @@
     //   "environment": [],
     //   "console": "externalTerminal"
     // },
-    {
-      "name": "(Windows) Launch",
-      "type": "cppvsdbg",
-      "request": "launch",
-      "program": "${workspaceFolder}/${fileDirname}/target/debug/$file}.exe",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${fileDirname}",
-      "environment": [],
-      "console": "externalTerminal"
-    }
+    // {
+    //   "name": "(Windows) Launch",
+    //   "type": "cppvsdbg",
+    //   "request": "launch",
+    //   "program": "${workspaceFolder}/${fileDirname}/target/debug/$file}.exe",
+    //   "args": [],
+    //   "stopAtEntry": false,
+    //   "cwd": "${fileDirname}",
+    //   "environment": [],
+    //   "console": "externalTerminal"
+    // }
   ]
 }
