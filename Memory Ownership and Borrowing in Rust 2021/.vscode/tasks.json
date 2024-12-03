@@ -12,6 +12,18 @@
 			"options": {
                 "cwd": "${workspaceFolder}/debugging"  // Ensure this is pointing to 'debugging'
             }
+		},
+		{
+			"type": "cargo",
+			"command": "clean",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"group": "build",
+			"label": "rust: cargo clean",
+			"options": {
+                "cwd": "${workspaceFolder}/debugging"  // Ensure this is pointing to 'debugging'
+            }
 		}
 	]
 }
